@@ -22,7 +22,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_name = "tiiuae/Falcon3-10B-Instruct"
+model_name = "tiiuae/lemoLLM1-10B-Instruct"
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
